@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+    <title> Tourism in Greater Toronto Area...</title>
+</head>
+<body>
+    <div id="divHeader" class="divHeader">
+        <div id="login" class="login">
+            <center>
+                <h4>
+                    <br>
+                    Login username: <input type="text" id="username" name="username">
+                    Password: <input type="password" id="password" name="password">
+                    <input type="button" value="Log in" onclick="doLogin()">
+                    or <a href="registration.html">click here to Register</a>
+                    <br>
+                </h4>
+            </center>
+        </div>
+        <div id="logged" class="login"></div>
+        <script>checkLogin()</script>
+        <img class="homeimage" src = "img/torontoSkyline.jpg"/>
+        <div id="footer" class="footer">
+            <center>
+                <h4>
+                    <table width=100%>
+                        <tr>
+                            <td width=25% align=center>
+                                <a href="index.html">Home</a>
+                            </td>
+                            <td width=25% align=center>
+                                <a href="tourism.html">Touristic Places</a>
+                            </td>
+                            <td width=25% align=center>
+                                <a href="contact.html">Contact</a>
+                            </td>
+                            <td align=center>
+                                <a href="about.html">About</a>
+                            </td>
+                        </tr>
+                    </table>
+                </h4>
+            </center>
+        </div>
+    </div>
+    <br>
+    <h3>Fill this form to register</h3>
+    <table align= "center">
+        <tr>
+            <td>
+                <form>
+                    <table>
+                        <tr>
+                            <td class="tdright">
+                                First name:
+                            </td>
+                            <td class="tdleft">
+                                <input id="firstName" type="text" placeholder="Enter Firstname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdright">
+                                Last name:
+                            </td>
+                            <td class="tdleft">
+                                <input id="lastName" type="text" placeholder="Enter Lastname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdright">
+                                Username:
+                            </td>
+                            <td class="tdleft">
+                                <input id="usernameForm" type="text" placeholder="Enter username">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdright">
+                                Password:
+                            </td>
+                            <td class="tdleft">
+                                <input id="passwordForm" type="password" placeholder="Enter password">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input type="button" value="Register" onclick="doRegistration()">
+                    <input type="reset" value="Clear">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer" class="footer">
+        <h3><br>
+            <center>
+                <table width=100%>
+                    <tr>
+                        <td width=25% align=center>
+                                <a href="index.html">Home</a>
+                            </td>
+                        <td width=25% align=center>
+                            <a href="tourism.html">Touristic Places</a>
+                        </td>
+                        <td width=25% align=center>
+                            <a href="contact.html">Contact</a>
+                        </td>
+                        <td align=center>
+                            <a href="about.html">About</a>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </h3>
+    </div>    
+
+</body>
+</html>

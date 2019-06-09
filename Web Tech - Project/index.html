@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/login.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="css/sliders.css" media="all"/>
+        <title> Tourism in Greater Toronto Area...</title>
+    </head>
+    <body>
+        <div id="divHeader" class="divHeader">
+            <div id="login" class="login">
+                <center>
+                    <h4>
+                        <br>
+                        Login username: <input type="text" id="username" name="username">
+                        Password: <input type="password" id="password" name="password">
+                        <input type="button" value="Log in" onclick="doLogin()">
+                        or <a href="registration.html">click here to Register</a>
+                        <br>
+                    </h4>
+                </center>
+            </div>
+            <div id="logged" class="login"></div>
+            <script>checkLogin()</script>
+            <img class="homeimage" src = "img/torontoSkyline.jpg"/>
+            <div id="footer" class="footer">
+                <center>
+                    <h4>
+                        <table width=100%>
+                            <tr>
+                                <td width=25% align=center>
+                                    <a href="index.html">Home</a>
+                                </td>
+                                <td width=25% align=center>
+                                    <a href="tourism.html">Touristic Places</a>
+                                </td>
+                                <td width=25% align=center>
+                                    <a href="contact.html">Contact</a>
+                                </td>
+                                <td align=center>
+                                    <a href="about.html">About</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </h4>
+                </center>
+            </div>
+        </div>
+        <br>
+        <div id="showSlides" class="showSlides">
+            <div id="content" class="content">
+                <spam id="img1" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/ago.jpg"/>
+                        </a>
+                        <figcaption>Art Gallery of Ontatio</figcaption>
+                    </figure>
+                    <a class="prev" href="#img3">prev</a>
+                    <a class="next" href="#img2">next</a>
+                </spam>
+                <spam id="img2" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/casaloma.jpg"/>
+                        </a>
+                        <figcaption>Casa Loma</figcaption>
+                    </figure>
+                    <a class="prev" href="#img1">prev</a>
+                    <a class="next" href="#img3">next</a>
+                </spam>
+                <spam id="img3" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/cntower.jpg"/>
+                        </a>
+                        <figcaption>CN Tower</figcaption>
+                    </figure>
+                    <a class="prev" href="#img2">prev</a>
+                    <a class="next" href="#img4">next</a>
+                </spam>
+                <spam id="img4" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/ontariosciencecentre.jpg"/>
+                        </a>                        
+                        <figcaption>Ontario Science Centre</figcaption>
+                    </figure>
+                    <a class="prev" href="#img3">prev</a>
+                    <a class="next" href="#img5">next</a>
+                </spam>
+                <spam id="img5" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/ripleysaquarium.jpg"/>
+                        </a>                        
+                        <figcaption>Ripley's Aquarium</figcaption>
+                    </figure>
+                    <a class="prev" href="#img4">prev</a>
+                    <a class="next" href="#img6">next</a>
+                </spam>
+                <spam id="img6" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/rogerscentre.jpg"/>
+                        </a> 
+                        <figcaption>Rogers Centre</figcaption>
+                    </figure>
+                    <a class="prev" href="#img5">prev</a>
+                    <a class="next" href="#img7">next</a>
+                </spam>
+                <spam id="img7" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/royalontariomuseum.jpg"/>
+                        </a>                        
+                        <figcaption>Royal Ontario Museum</figcaption>
+                    </figure>
+                    <a class="prev" href="#img6">prev</a>
+                    <a class="next" href="#img8">next</a>
+                </spam>
+                <spam id="img8" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/torontoislands.jpg"/>
+                        </a>
+                        <figcaption>Toronto Islands</figcaption>
+                    </figure>
+                    <a class="prev" href="#img7">prev</a>
+                    <a class="next" href="#img9">next</a>
+                </spam>
+                <spam id="img9" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/wonderland.jpg"/>
+                        </a>
+                        <figcaption>Canada's Wonderland</figcaption>
+                    </figure>
+                    <a class="prev" href="#img8">prev</a>
+                    <a class="next" href="#img10">next</a>
+                </spam>
+                <spam id="img10" class="slide">
+                    <figure>
+                        <a href='tourism.html'>
+                            <img class="slider" src="img/places/torontozoo.jpg"/>
+                        </a>
+                        <figcaption>Toronto Zoo</figcaption>
+                    </figure>
+                    <a class="prev" href="#img9">prev</a>
+                    <a class="next" href="#img1">next</a>
+                </spam>
+            </div>
+        </div>
+        <center>
+            <div class="introduction">
+                Discover the main sights of Toronto to plan your tours and not miss a thing. 
+                Capital of the Province of Ontario, Canada's largest city is one of the darlings 
+                among tourists who choose the country as a destination. Half the population of 
+                Toronto is coming from other countries. Thus, several neighborhoods have emerged, 
+                such as Chinatown, Little Italy, Little Portugal, with several establishments 
+                that highlight the culture of the respective countries, as well as a very 
+                hospitable people, who welcome the tourists with a lot of sympathy.
+            </div>
+        </center>
+        <!-- <script type="text/javascript" src="js/script.js"></script> -->
+        <div id="footer" class="footer">
+            <h3><br>
+                <center>
+                    <table width=100%>
+                        <tr>
+                            <td width=25% align=center>
+                                <a href="index.html">Home</a>
+                            </td>
+                            <td width=25% align=center>
+                                <a href="tourism.html">Touristic Places</a>
+                            </td>
+                            <td width=25% align=center>
+                                <a href="contact.html">Contact</a>
+                            </td>
+                            <td align=center>
+                                <a href="about.html">About</a>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </h3>
+        </div>
+    </body>
+</html>   

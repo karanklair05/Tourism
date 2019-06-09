@@ -1,0 +1,81 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	color:#2F4F4F;
+}
+p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: x-large;
+}
+.introduction{
+	align-self: center;
+	width:70%;
+	text-align: center;
+}
+.homeimage{
+	height: 200px;
+	width: 100%;
+}
+.tourismImage{
+	height: 300px;
+	width: 600px;
+}
+.divHeader{
+	margin-top: 10px;
+    position: relative;
+	height: 10%;
+	background-color: #336699;
+}
+.content{
+	height:300px;
+    position:relative;
+    overflow: hidden;
+}
+.list{
+	color:white;
+	border-color: white;
+    position: relative;
+	height: 10%;
+    background-color: #336699;
+}
+td{
+	text-align:center;
+}
+.tdright{
+	text-align:right;
+}
+.tdleft{
+	text-align:left;
+}
+.login{
+	color:white;
+    position: relative;
+    height: 10%;
+    background-color: #336699;
+}
+.footer{
+	color:white;
+    position: relative;
+    height: 10%;
+    background-color: #336699;
+}
+a{
+	text-decoration: none;
+}
+a:links{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+/* .place{
+	text-align: center;
+	margin-bottom: 3%;
+} */

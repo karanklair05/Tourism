@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+    <title> Tourism in Greater Toronto Area...</title>
+</head>
+<body>
+    <div id="divHeader" class="divHeader">
+        <div id="login" class="login">
+            <center>
+                <h4>
+                    <br>
+                    Login username: <input type="text" id="username" name="username">
+                    Password: <input type="password" id="password" name="password">
+                    <input type="button" value="Log in" onclick="doLogin()">
+                    or <a href="registration.html">click here to Register</a>
+                    <br>
+                </h4>
+            </center>
+        </div>
+        <div id="logged" class="login"></div>
+        <script>checkLogin()</script>
+        <img class="homeimage" src = "img/torontoSkyline.jpg"/>
+        <div id="footer" class="footer">
+            <center>
+                <h4>
+                    <table width=100%>
+                        <tr>
+                            <td width=25% align=center>
+                                <a href="index.html">Home</a>
+                            </td>
+                            <td width=25% align=center>
+                                <a href="tourism.html">Touristic Places</a>
+                            </td>
+                            <td width=25% align=center>
+                                <a href="contact.html">Contact</a>
+                            </td>
+                            <td align=center>
+                                <a href="about.html">About</a>
+                            </td>
+                        </tr>
+                    </table>
+                </h4>
+            </center>
+        </div>
+    </div>
+    <br>
+    <h3>Feel free to give us your feedback or complaints</h3>
+    <table align= "center">
+        <tr>
+            <td>
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <table>
+                        <tr>
+                            <td class="tdright">
+                                Name:
+                            </td>
+                            <td class="tdleft">
+                                <input type="text" name="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdright">
+                                E-mail:
+                            </td>
+                            <td class="tdleft">
+                                <input type="text" name="mail">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdright">
+                                Comment:
+                            </td>
+                            <td class="tdleft">
+                                <input type="text" name="comment" size="50">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer" class="footer">
+        <h3><br>
+            <center>
+                <table width=100%>
+                    <tr>
+                        <td width=25% align=center>
+                                <a href="index.html">Home</a>
+                            </td>
+                        <td width=25% align=center>
+                            <a href="tourism.html">Touristic Places</a>
+                        </td>
+                        <td width=25% align=center>
+                            <a href="contact.html">Contact</a>
+                        </td>
+                        <td align=center>
+                            <a href="about.html">About</a>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </h3>
+    </div>    
+
+</body>
+</html>
